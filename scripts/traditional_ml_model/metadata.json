@@ -1,0 +1,15 @@
+{
+  "model_type": "RandomForest",
+  "n_features": 88,
+  "classes": [
+    "Moderate",
+    "Normal",
+    "Spagetti",
+    "Urgent"
+  ],
+  "accuracy": {
+    "train": 1.0,
+    "validation": 0.6875,
+    "test": 0.8571428571428571
+  }
+}

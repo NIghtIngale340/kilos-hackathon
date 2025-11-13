@@ -1,0 +1,39 @@
+{
+  "modelType": "pole-hazard-detection",
+  "version": "1.0-trained",
+  "inputShape": [
+    224,
+    224,
+    3
+  ],
+  "classes": [
+    "moderate",
+    "normal",
+    "urgent"
+  ],
+  "classMapping": {
+    "urgent": [
+      "Broken Pole",
+      "Old Pole"
+    ],
+    "moderate": [
+      "Vegetation Pole",
+      "Pole Vegetation"
+    ],
+    "normal": [
+      "Good Pole"
+    ]
+  },
+  "preprocessing": {
+    "method": "mobilenet_v3",
+    "normalize": true,
+    "resize": [
+      224,
+      224
+    ]
+  },
+  "accuracy": {
+    "validation": 0.7143,
+    "test": 0.6667
+  }
+}

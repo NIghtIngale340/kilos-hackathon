@@ -1,0 +1,20 @@
+{
+  "classes": [
+    "moderate",
+    "normal",
+    "urgent"
+  ],
+  "mapping": {
+    "urgent": [
+      "Broken Pole",
+      "Old Pole"
+    ],
+    "moderate": [
+      "Vegetation Pole",
+      "Pole Vegetation"
+    ],
+    "normal": [
+      "Good Pole"
+    ]
+  }
+}
