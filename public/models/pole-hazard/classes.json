@@ -1,0 +1,31 @@
+{
+  "classes": [
+    "moderate",
+    "normal",
+    "spagetti",
+    "urgent"
+  ],
+  "description": "4-class pole hazard detection",
+  "mapping": {
+    "urgent": [
+      "Broken Pole",
+      "Old Pole",
+      "Severely Leaning"
+    ],
+    "spagetti": [
+      "Tangled Wires",
+      "Messy Cables",
+      "Unauthorized Taps"
+    ],
+    "moderate": [
+      "Vegetation Pole",
+      "Pole Vegetation",
+      "Tree Contact"
+    ],
+    "normal": [
+      "Good Pole",
+      "Clean Pole",
+      "Well Maintained"
+    ]
+  }
+}

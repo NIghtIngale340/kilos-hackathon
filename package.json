@@ -9,13 +9,21 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@tensorflow/tfjs": "^4.22.0",
+    "blurhash": "^2.0.5",
     "firebase": "^12.5.0",
+    "leaflet": "^1.9.4",
     "next": "16.0.2",
     "react": "19.2.0",
-    "react-dom": "19.2.0"
+    "react-dom": "19.2.0",
+    "react-leaflet": "^5.0.0",
+    "react-leaflet-markercluster": "^5.0.0-rc.0",
+    "supercluster": "^8.0.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "@tensorflow/tfjs-converter": "^4.22.0",
+    "@types/leaflet": "^1.9.21",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
